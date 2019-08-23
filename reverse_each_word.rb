@@ -2,6 +2,7 @@ def reverse_each_word(string)
   str_arry = string.split
   reversed = []
   newstring =""
+  newstring1 =""
   str_arry.each do |elemnt|
    reversed << elemnt.reverse!
   end
@@ -12,7 +13,7 @@ def reverse_each_word(string)
     str_arry[cnt] = elemnt.reverse!
     cnt+=1 
   end
-  newstring = str_arry.join(" ")
+  newstring1 = str_arry.join(" ")
  end
  
     
