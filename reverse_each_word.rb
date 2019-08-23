@@ -11,6 +11,8 @@ def reverse_each_word(string, string2)
   str_arry.collect do |elemnt|
     str_arry[cnt] = elemnt.reverse!
     cnt+=1 
+  end
+  newstring = str_arry.join(" ")
  end
  
     
