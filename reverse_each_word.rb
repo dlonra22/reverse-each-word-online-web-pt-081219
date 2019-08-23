@@ -6,6 +6,7 @@ def reverse_each_word(string)
    reversed << elemnt.reverse!
   end
   newstring = reversed.join(" ")
+  
  end
  
     
