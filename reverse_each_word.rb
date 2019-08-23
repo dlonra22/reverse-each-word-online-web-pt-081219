@@ -7,7 +7,8 @@ def reverse_each_word(string)
   end
   newstring = reversed.join(" ")
   
-  str_arry.collect do |elemnt
+  str_arry.collect do |elemnt|
+    
  end
  
     
