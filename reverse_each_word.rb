@@ -6,7 +6,7 @@ def reverse_each_word(string)
  str_arry.collect do |elemnt|
    reversed << elemnt.reverse
   end
-  newstring = str_arry
+  newstring = reversed.join(" ")
  end
  
     
