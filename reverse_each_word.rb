@@ -3,19 +3,12 @@ def reverse_each_word(string)
   reversed = []
   newstring =""
   newstring1 =""
-  str_arry.each do |elemnt|
+  str_arry.collect do |elemnt|
    reversed << elemnt.reverse!
   end
   newstring = reversed.join(" ")
-  
-  cnt = 0
-  str_arry.collect do |elemnt|
-    str_arry[cnt] = elemnt.reverse!
-    cnt+=1 
-  end
-  newstring1 = str_arry.join(" ")
-  newstring1
- end
+  newstring
+end
  
     
     
