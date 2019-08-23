@@ -1,7 +1,11 @@
 def reverse_each_word(string)
   str_arry = string.split
   reversed = []
-  str_arry.map do |elemnt|
+  str_arry.each do |elemnt|
    reversed << elemt.reversed
+   puts reversed
+  end
+ end
+ 
     
     
