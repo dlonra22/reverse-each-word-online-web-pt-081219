@@ -8,6 +8,14 @@ def reverse_each_word(string)
   end
   newstring = reversed.join(" ")
   
+  cnt = 0
+  str_arry.collect do |elemnt|
+    str_arry[cnt] = elemnt.reverse!
+    cnt+=1 
+  end
+  newstring1 = str_arry.join(" ")
+  newstring1
+ end
  
     
     
