@@ -14,6 +14,7 @@ def reverse_each_word(string)
     cnt+=1 
   end
   newstring1 = str_arry.join(" ")
+  newstring1
  end
  
     
