@@ -3,8 +3,8 @@ def reverse_each_word(string)
   reversed = []
   str_arry.each do |elemnt|
    reversed << elemnt.reverse!
-   
   end
+  
   
  end
  
